@@ -22,7 +22,7 @@ def notifyAboutUpdates(gem_name)
 	if json_object["version"] > highest_version 
 		puts "Updates are available!".green
 		puts "Your current version of #{gem_name} is #{highest_version}".green
-		puts "Run 'gem update @{gem_name}' to get latest version #{json_object['version']}".green
+		puts "Run 'gem update #{gem_name}' to get latest version #{json_object['version']}".green
 		puts ""
 	end      
 end
