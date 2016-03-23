@@ -1,0 +1,5 @@
+#!/usr/bin/ruby
+
+require 'version_checker'
+
+notifyAboutUpdates(ARGV[0])
