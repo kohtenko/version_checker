@@ -7,7 +7,6 @@ def notifyAboutUpdates(gem_name)
 		puts "Pass correct gem name".red
 		return
 	end
-	puts "Gem name #{gem_name}".green
 	json_object = JSON.parse(open("https://rubygems.org/api/v1/versions/#{gem_name}/latest.json").read)
 	specs = Gem.loaded_specs[gem_name]
 	if specs.nil?
