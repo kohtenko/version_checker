@@ -13,7 +13,7 @@ Add this gem to your gem dependency. In yout .gemspec file add following
 When your gem is updated and any user runs it on his machine, `version_checker ` will display message with update offer.
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/version_checker.
+Bug reports and pull requests are welcome on GitHub at https://github.com/kohtenko/version_checker.
 
 
 ## License
